@@ -13,12 +13,13 @@
     }
 }
 
-.slide h1, h2{
-    font-family: 'Alfa Slab One', cursive;
-
+.slide h1{
+    font-size: 70px;
+    font-family: 'Bowlby One SC', cursive;
 }
+
 .slide p{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bowlby One SC', cursive;
 
 }
 
@@ -30,6 +31,8 @@
     background-size: cover;
     background:url('../assets/banner-01.png');
     font-size:30px;
+    font-family: 'Bowlby One SC', cursive;
+
 }
 .cover{
     height:100%;

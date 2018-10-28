@@ -13,7 +13,7 @@ class Home extends Component {
                 <div className="slide">
                     <div className="cover">
                         <div>
-                            <p >Fixter y Peanut Cowork te invitan a</p>
+                            <p >Fixter y Peanut Cowork te invitan al</p>
                             <br/>
                             <h1>Hackathon</h1>
                             <h2 className="titulo">24 y 25 de Noviembre 2018</h2>
