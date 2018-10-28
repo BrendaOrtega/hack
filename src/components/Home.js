@@ -13,8 +13,10 @@ class Home extends Component {
                 <div className="slide">
                     <div className="cover">
                         <div>
-                            <img className="logo" src={logo} alt=""/>
-                            <p className="titulo">24 y 25 de Noviembre 2018</p>
+                            <p >Fixter y Peanut Cowork te invitan a</p>
+                            <br/>
+                            <h1>Hackathon</h1>
+                            <h2 className="titulo">24 y 25 de Noviembre 2018</h2>
                             <FontAwesome className="icono" name="angle-down"/>
                         </div>
                     </div>

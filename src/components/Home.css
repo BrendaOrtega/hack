@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC|Fascinate+Inline|Luckiest+Guy|Nosifer');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Quicksand|Bowlby+One+SC|Fascinate+Inline|Luckiest+Guy|Nosifer');
 
 @keyframes move{
     0%{
@@ -13,8 +13,14 @@
     }
 }
 
+.slide h1, h2{
+    font-family: 'Alfa Slab One', cursive;
 
+}
+.slide p{
+    font-family: 'Quicksand', sans-serif;
 
+}
 
 .slide{
     width: 100%;
@@ -22,8 +28,7 @@
     height:100vh;
     background-position: center;
     background-size: cover;
-    background-color: #0a090a;
-    font-family: 'Poiret One', cursive;
+    background:url('../assets/banner-01.png');
     font-size:30px;
 }
 .cover{
@@ -33,7 +38,6 @@
     width:100%;
     color:white;
     text-align: center;
-    font-family: 'Alfa Slab One', cursive;
 
 
 }
@@ -51,7 +55,13 @@
 .logo{
     width:50%;
 }
-
+.owl_box{
+    display: flex;
+    align-items: center;
+}
+.owl_box img{
+    width: 100%;
+}
 /*About*/
 .about{
     height:auto;
