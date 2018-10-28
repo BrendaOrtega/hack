@@ -25,7 +25,7 @@ class About extends Component {
                     </div>
                     <div className="box_about owl">
                         <div className="owl_box">
-                            <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/31948936_2052582124805616_4832497592854118400_n.jpg?_nc_cat=108&_nc_ht=scontent.fmex6-1.fna&oh=4e3e5ec6e69b7691abda086dbee2a345&oe=5C849E90" alt=""/>
+
                         </div>
                     </div>
                 </div>
