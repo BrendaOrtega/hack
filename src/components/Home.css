@@ -102,8 +102,6 @@
 }
 .pad{
     padding: 70px 5% 50px 5%;
-    font-family: Avenir;
-    color:white;
 }
 .pad h1{
     color:white;
@@ -130,7 +128,7 @@
     width:100%;
 }
 .footer_box{
-    background-color: #22252a;
+    background-color: #232d48;
     width:100%;
     height:250px;
     text-align: center;
@@ -149,16 +147,7 @@
     padding: 1% 2%;
     margin: 0 10px;
 }
-.footer button{
-    background-color: #75d21a;
-    width:100px;
-    height:40px;
-    padding: 1% 2%;
-    margin: 0 10px;
-    border: none;
-    color: white;
-    font-size: 15px;
-}
+
 .footer_data{
     height:120px;
     width:80%;
@@ -172,4 +161,81 @@
 .redes span{
     margin: 0 20px;
     font-size: 35px;
+}
+
+.clickMe{
+    color: #232d48;
+    background-color: #aad3e4;
+    border-color: transparent;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.clickMe span {
+	transition: all 0.3s;
+}
+.clickMe::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	transform: scale(0.1, 1);
+}
+.clickMe:hover span {
+	letter-spacing: 2px;
+}
+.clickMe:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.clickMe::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+}
+.clickMe:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+.float-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reward-list ul{
+    font-size: 24px;
+    font-weight: 350;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.reward-list li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.fas{
+    margin: 3px;
+    color: #aad3e4;
 }

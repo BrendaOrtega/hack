@@ -8,26 +8,30 @@ class Footer extends Component {
             <div className="footer" >
                 <div className="footer_box">
                     <div>
-                        <h2>Listo para empezar? Recibe toda la información ahora!
-                        </h2>
                         <div>
                             <div>
-                                <input placeholder="Email" type="text"/>
-                                <button>Enviar</button>
+                                <h1 style={{ color: 'white' }}>¿Quieres participar? Registrate aquí</h1>
+                                <div className="fl">
+                                    <a href="https://mefithernndez.typeform.com/to/ppHVN0" target="_blank"><button className="clickMe" style={{ padding: '10px 20px', borderRadius: '5px', fontSize: '24px', fontWeight: '400', cursor: 'pointer' }}>
+                                        <span> Click aquí </span>
+                                    </button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <section className="footer_data flex">
                     <div className="ft">
-                        <span>Sobre Capital Travel</span>
-                        <span>Contacto</span>
-                        <span>Políticas de Provacidad</span>
+                        <span>Sobre Fixter</span>
+                        <FontAwesome name="facebook-square" />
+                        <FontAwesome name="twitter-square" />
+                        <FontAwesome name="instagram" />
                     </div>
-                    <div className="redes">
-                        <FontAwesome name="facebook-square"/>
-                        <FontAwesome name="twitter-square"/>
-                        <FontAwesome name="instagram"/>
+                    <div className="ft">
+                        <span>Sobre Peanut CoWork</span>
+                        <FontAwesome name="facebook-square" />
+                        <FontAwesome name="twitter-square" />
+                        <FontAwesome name="instagram" />
                     </div>
                 </section>
             </div>
