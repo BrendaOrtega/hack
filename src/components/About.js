@@ -39,6 +39,11 @@ class About extends Component {
                                 <li><i className="fas fa-check"></i> Swag</li>
                             </ul>
                         </div>
+
+                    </div>
+                    <div style={{diplay:"flex", textAlign:"center"}}>
+                    <p>Av. Tecnológico de Monterrey 308, 42086 Pachuca de Soto
+                        </p> <p>24 de Noviembre 10:00 am</p>
                     </div>
                 </div>
             </div>
