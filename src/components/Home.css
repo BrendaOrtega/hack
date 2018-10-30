@@ -239,3 +239,6 @@
     margin: 3px;
     color: #aad3e4;
 }
+a{
+    color:inherit;
+}

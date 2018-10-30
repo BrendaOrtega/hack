@@ -23,13 +23,21 @@ class Footer extends Component {
                 <section className="footer_data flex">
                     <div className="ft">
                         <span>Sobre Fixter</span>
-                        <FontAwesome name="facebook-square" />
-                        <FontAwesome name="twitter-square" />
-                        <FontAwesome name="instagram" />
+                        <a href="https://www.facebook.com/fixterme/" target="_blank">
+                            <FontAwesome name="facebook-square" />
+                        </a>
+                        <a href="https://twitter.com/FixTeR_?lang=es" target="_blank">
+                            <FontAwesome name="twitter-square" />
+                        </a>
+                        <a href="https://www.instagram.com/fixtergeek/?hl=es-la" target="_blank">
+                            <FontAwesome name="instagram" />
+                        </a>
                     </div>
                     <div className="ft">
                         <span>Sobre Peanut CoWork</span>
-                        <FontAwesome name="facebook-square" />
+                        <a href="https://www.facebook.com/PeanutCoWork/" target="_blank">
+                            <FontAwesome name="facebook-square" />
+                        </a>
                         <FontAwesome name="twitter-square" />
                         <FontAwesome name="instagram" />
                     </div>
