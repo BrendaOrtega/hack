@@ -30,17 +30,15 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="pad">
-                    <div className="fix" style={{backgroundImage:`url("https://images.pexels.com/photos/953216/pexels-photo-953216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")`}}>
-                        <div className="cover">
-                            <div className="">
-                                <h1 >Descarga nuestra app</h1>
-                                <div  className="fl">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2000px-Download_on_the_App_Store_Badge.svg.png" alt=""/>
-                                    <img src="https://mobileport.com.mx/wp-content/uploads/2017/11/googleplay_button_es.png" alt=""/>
-                                </div>
-                                <br/>
-                                <p >No es solo una reunión, es una experiencia.</p>
-                            </div></div>
+                    <div className="float-flex">
+                        <div className="reward-list">
+                            <ul>
+                                <li><i className="fas fa-check"></i> Coding</li>
+                                <li><i className="fas fa-check"></i> Pastes</li>
+                                <li><i className="fas fa-check"></i> Aire Freso</li>
+                                <li><i className="fas fa-check"></i> Swag</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
